@@ -114,9 +114,9 @@ kubectl apply -f Deployment_Files/ai-service.yaml -n best-buy-app
 ```
 ### Issues and Limitations
 **Azure Service Bus Integration**
-   - Replacing RabbitMQ required significant code for message handling.
-**Azure AI Service**
-   - Not able to fix the AI service.
+   - Replacing RabbitMQ required significant code for message handling
+**Mismatch in Clusters"
+   - kubectl context is pointing to a local Kind cluster, while the Azure portal is connected to your Azure AKS cluster, causing a mismatch in the clusters and resulting in pods visible in VS Code but not in the Azure portal.
 
 
 ## Repositories
